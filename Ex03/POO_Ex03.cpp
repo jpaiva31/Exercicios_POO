@@ -1,7 +1,4 @@
-/*professor, nao sei se entendi certo o que deveria ser feito no método resolver.
-Pelo que entendi, era para pritar na tela a equação, por isso fiz assim apesar
-da saída dos programas estarem diferentes.
-*/
+
 #include <iostream>
 #include <math.h>
 
@@ -123,7 +120,7 @@ int main ()
     Eq1Grau eq1(2, 3); //2*x + 3 = 0
     cout << "Eq1: " << eq1 << endl;
     eq1.resolver();
-    Eq2Grau eq2(1, 1, -6); // 1*x^2 + 1*x – 6 = 0
+    Eq2Grau eq2(1, 1, -6); // 1*x^2 + 1*x â€“ 6 = 0
     cout << "Eq2: " << eq2 << endl;
     eq2.resolver();
     Eq2Grau eq3 (1,1,1); // 1*x^2 + 1*x + 1 = 0
